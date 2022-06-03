@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, request, \
     jsonify, send_from_directory, abort, g
 
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 
 
 import random
